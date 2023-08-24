@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* container */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+    overflow: auto;
+}
+
+/* flex */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+}
+
+.grid-2 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* card */
+.card {
+    background: #fff;
+    color: #181818;
+    padding: 1.5rem 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(172, 172, 172, 0.75);
+}
+
+/* buttons */
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    padding: 0.7rem 2rem;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in;
+}
+
+.btn:hover {
+    transform: scale(0.98);
+}
+
+.btn-primary {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.btn-outline {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-dark {
+    background: var(--dark-color);
+    color: #fff;
+}
+
+/* margins */
+.my-1 {
+    margin: 1rem 0;
+}
+
+.my-2 {
+    margin: 1.5rem 0;
+}
+
+.my-3 {
+    margin: 2rem 0;
+}
+
+.my-4 {
+    margin: 2.5rem 0;
+}
+
+/* padding */
+.py-1 {
+    padding: 1rem 0;
+}
+
+.py-2 {
+    padding: 1.5rem 0;
+}
+
+.py-3 {
+    padding: 2rem 0;
+}
+
+.py-4 {
+    padding: 2.5rem 0;
+}
+
+.pb-1 {
+    padding: 0.5rem;
+}
+
+
+/* text size */
+.lg {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.md {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
